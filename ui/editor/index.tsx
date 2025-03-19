@@ -73,7 +73,7 @@ function Editor({ id, readOnly }: EditorProps) {
 
   const editor = usePlateEditor({
     id,
-    value,
+//    value,
     plugins: [...plugins],
     override: {
       components: pluginComponents,
